@@ -1,10 +1,11 @@
 const express = require('express');
+const path = require('path');
 const app = express();
 const port = 3000
 
-app.use(express.static('public'))
+app.use(express.static(path.join(__dirname, 'public')))
 
-app.get('/', express.static('public'));
+app.get('/', express.static(path.join(__dirname, 'public')));
 
 app.get('/api/ip', async (req, res) => {
 	const ip = res.socket.remoteAddress;
