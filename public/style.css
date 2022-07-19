@@ -43,11 +43,12 @@ a:visited { color: #14ffe6; }
 	background-postion: left center;
 	background-repeat: repeat;
 }
+
 .links button {
 	size: 3rem;
 
 	font-size: 0;
-	background-color: #fff;
+	background-color: #000;
 
 	border-style: none;
 	border-radius: 50%;
