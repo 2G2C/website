@@ -7,9 +7,3 @@
 // 	para.appendChild(document.createTextNode(data.ip))
 // 	document.getElementById("ip_addr").appendChild(para);
 // })
-
-const ip = fetch("http://127.0.0.1:3001/ping")
-.then(res => res.json())
-.then((data) => {
-	console.log(data)
-})
