@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
+* {
+	font-family: 'Nunito', sans-serif;
+}
+
 body {
 	background: #000;
 }
 
 h1, h2, h3, p {
-	font-family: 'Nunito', sans-serif;
 	color: #fff;
 }
 
@@ -21,6 +24,14 @@ a:visited { color: #14ffe6; }
 	position: fixed;
 	padding: 10px 10px 0px 10px;
 	bottom: 0;
+	width: 100%;
+	background: #111;
+}
+
+.header {
+	position: fixed;
+	padding: 10px 10px 0px 10px;
+	top: 0;
 	width: 100%;
 	background: #111;
 }
@@ -48,6 +59,17 @@ a:visited { color: #14ffe6; }
 	size: 3rem;
 
 	font-size: 0;
+	background-color: #000;
+
+	border-style: none;
+	border-radius: 50%;
+
+	padding: 20px;
+}
+
+.header button {
+	size: 2rem;
+
 	background-color: #000;
 
 	border-style: none;
