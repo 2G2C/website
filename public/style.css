@@ -35,3 +35,22 @@ a:visited { color: #14ffe6; }
 	width: 23rem;
 	height: 7rem;
 }
+
+.parallax {
+	height: 100%;
+
+	background-attachment: fixed;
+	background-postion: left center;
+	background-repeat: repeat;
+}
+.links button {
+	size: 3rem;
+
+	font-size: 0;
+	background-color: #fff;
+
+	border-style: none;
+	border-radius: 50%;
+
+	padding: 20px;
+}
