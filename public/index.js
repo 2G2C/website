@@ -8,7 +8,7 @@
 // 	document.getElementById("ip_addr").appendChild(para);
 // })
 
-const ip = fetch("ss14://421034.xyz/status")
+const ip = fetch("http://127.0.0.1:3000/api/ping")
 .then(res => res.json())
 .then((data) => {
 	console.log(data)
